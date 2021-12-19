@@ -11,9 +11,9 @@ GET /weather
 | `lat`                    | number |  Yes | Latitude |
 | `lon`                    | number |  Yes | Longitude |
 
-### Usage
+### Starting Service
 Clone the project. From the project root, run ```sbt run```. The service will be available at address localhost:9000.
 
-### Example
+### Usage Example
 curl -v 'http://localhost:9000/weather?lat=49&lon=-127.1'
 
